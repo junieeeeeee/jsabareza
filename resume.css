@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #5a5a5a;
+    border-radius: 10px;
+  }
+  .profile-img {
+    max-width: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  .name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .info {
+    margin-bottom: 20px;
+  }
+  .info p {
+    margin: 5px 0;
+  }
+  .section-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .experience {
+    margin-bottom: 20px;
+  }
+  .experience p {
+    margin: 5px 0;
+  }

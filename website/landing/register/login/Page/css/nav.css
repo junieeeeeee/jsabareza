@@ -1,0 +1,36 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+}
+
+.nav__logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav__list li {
+    margin-right: 20px;
+}
+
+.nav__list li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav__list li a:hover {
+    text-decoration: underline;
+}
